@@ -8,13 +8,14 @@
 <body>
     <h1>Register</h1>
     <form action="">
-        <label for="">First Name</label>
+       <fieldset> <label for="First Name">First Name</label>
+        <legend>Names</legend>
         <br>
-        <input type="text" name="" id="">
+        <input type="text" name="First Name" id="First Name">
         <br> <br>
         <label for="">Last Name</label>
         <br>
-        <input type="text" name="" id="">
+        <input type="text" name="" id=""></fieldset>
         <br> <br>
         <label for="">Email</label>
         <br>
@@ -46,6 +47,7 @@
          <label for="">Unemployed</label>
         <input type="radio" name="employment status" id="" value="Unemployed">
         <br> <br>
+        <!-- Select Options -->
         <label for="">Choose Your State</label>
         <select name="State" id="">
             <option value="Enugu">Enugu</option>
@@ -58,7 +60,29 @@
                    <option value="Benue">Benue</option>
         </select>
         <br> <br>
+         <!-- Input Checkbox -->
+         <label for="">Choos Your Preferred Mode Of contact</label>
+         <input type="checkbox" name="contact Mode" id="email mode" value="Email"><label for="email mode">Email</label>
+          <input type="checkbox" name="contact mode" id="sms mode" value="SMS"><label for="sms mode">SMS</label>
+           <input type="checkbox" name="contact mode" id="call mode" value="Call"><label for="call mode">Call</label>
+
+           <br> <br>
+           <!-- Input - date type -->
+            <label for="">Enter D.O.B</label>
+            <input type="date" name="" id="">
+<br> <br>
+            <!-- input - file upload -->
+<label for="">Upload License/Int'l Password</label>
+<br>
+<input type="file" name="" id="">
+
+<br><br>
+
+
+        <br> <br>
         <label for="">Submit</label>
+
+
         <input type="submit" value="">
     </form>
 </body>
