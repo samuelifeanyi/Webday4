@@ -1,0 +1,25 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: skyblue;
+}
+h1 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    color: rgb(77, 64, 39);
+}
+
+button {
+    background-color: orange;
+    border: none;
+    padding: 2x;
+    border-radius: 10px;
+cursor: pointer;
+}
