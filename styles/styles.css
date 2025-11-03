@@ -16,10 +16,42 @@ label {
     color: rgb(77, 64, 39);
 }
 
-button {
+.btn {
     background-color: orange;
     border: none;
     padding: 2x;
     border-radius: 10px;
 cursor: pointer;
+}
+
+#btn-1 {
+    background-color: crimson;
+    color: white;
+}
+#btn-2 {
+    background-color: orange;
+}
+#btn-3 {
+    background-color: rgba(104, 166, 10, 0.938);
+    color: black;
+}
+
+.dan {
+    display: block;
+    width: 1000px;
+    border-radius: 40px;
+    border: none;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 10px 5px 4px red
+    
+}
+#merged-cell {
+    align-items: center;
+}
+table {
+    width: 200px;
+}
+td {
+    text-align: center;
 }
